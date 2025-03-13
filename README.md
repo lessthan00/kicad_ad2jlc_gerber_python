@@ -7,14 +7,17 @@
 
 1. kicad的gerber 文件仿真 kicad_gerber 的文件夹下
 
+```txt
 project
 --kicad_gerber
 ----...kicad的gerber文件
 --kicad_ad2jlc_gerber.exe
+```
 
 双击 kicad_ad2jlc_gerber.exe
 生成
 
+```txt
 project
 --kicad_gerber
 ----...kicad的gerber文件
@@ -22,19 +25,23 @@ project
 ----...jlc的gerber文件
 --kicad_ad2jlc_gerber.exe
 --jlc_gerber.zip
+```
 
 然后jlc_gerber.zip 即可拿去免费打板
 
 2. AD的Gerber
 
+```txt
 project
 --ad_gerber
 ----...ad的gerber文件
---kicad_ad2jlc_gerber.exe
+--kicad_ad2jlc_gerber.exe\
+```
 
 双击 kicad_ad2jlc_gerber.exe
 生成
 
+```txt
 project
 --ad_gerber
 ----...ad的gerber文件
@@ -42,6 +49,7 @@ project
 ----...jlc的gerber文件
 --kicad_ad2jlc_gerber.exe
 --jlc_gerber.zip
+```
 
 然后jlc_gerber.zip 即可拿去免费打板
 
